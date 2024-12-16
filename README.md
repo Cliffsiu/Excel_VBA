@@ -1,58 +1,41 @@
-# Excel VBA Automation Toolkit
+# Excel VBA
+======
 
-### Overview
-The Excel VBA Automation Toolkit is a collection of beginner-friendly VBA macros designed to simplify and automate common tasks in Excel. 
+## Overview
+The Excel VBA macros are designed to simplify and automate common tasks in Excel. 
 This project demonstrates the power of VBA for streamlining workflows, making it an excellent showcase for learning or portfolio purposes.
 
-### Features
+## Features
 This repository includes a variety of VBA scripts to perform tasks such as:
 
-1. Data Formatting:
-    *Auto-formatting columns (e.g., text alignment, font changes, borders).
-    *Converting data to tables with consistent styling.
+### 1. Data Formatting:
+    * Auto-formatting columns (e.g., text alignment, font changes, borders).
+    * Converting data to tables with consistent styling.
 
-Data Cleaning:
+### 2. Data Cleaning:
+   * Removing duplicates.
+   * Handling blank rows and columns.
+   * Trimming unnecessary spaces from cell values.
 
-Removing duplicates.
+### 3. Automation:
+   * Automatically generating reports based on a template.
+   * Batch renaming worksheets.
+   * Sorting and filtering data dynamically.
 
-Handling blank rows and columns.
+### 4. Navigation and Interaction:
+   * Adding buttons and user forms for easier interaction.
+   * Navigating between worksheets with shortcut macros.
 
-Trimming unnecessary spaces from cell values.
-
-Automation:
-
-Automatically generating reports based on a template.
-
-Batch renaming worksheets.
-
-Sorting and filtering data dynamically.
-
-Navigation and Interaction:
-
-Adding buttons and user forms for easier interaction.
-
-Navigating between worksheets with shortcut macros.
-
-Getting Started
-
+## Getting Started
 Prerequisites
-
 Microsoft Excel (2016 or later recommended).
-
 Basic understanding of VBA (Visual Basic for Applications).
-
 Installation
-
 Enable the Developer Tab:
-
 Open Excel.
-
 Go to File > Options > Customize Ribbon.
-
 Check the Developer option and click OK.
-
 Access VBA Editor:
-
 Press Alt + F11 to open the VBA editor.
 
 Import the Code:
