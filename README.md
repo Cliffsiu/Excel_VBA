@@ -34,20 +34,20 @@ This repository includes a variety of VBA scripts to perform tasks such as:
 ### Installation
 1. Enable the Developer Tab:
    * Open Excel.
-   * Go to 'File' > 'Options' > 'Customize Ribbon'.
-   * Check the Developer option and click 'OK'.
+   * Go to `File` > `Options` > `Customize Ribbon`.
+   * Check the Developer option and click `OK`.
 
 2. Access VBA Editor:
-   * Press 'Alt + F11' to open the VBA editor.
+   * Press `Alt + F11` to open the VBA editor.
 
 3. Import the Code:
-   * Download this repository as a '.zip' or clone it.
+   * Download this repository as a `.zip` or clone it.
    * Open the Excel workbook where you'd like to add the macros.
-   * Import the '.bas' files into your project via the VBA editor.
+   * Import the `.bas` files into your project via the VBA editor.
 
 ## How to Use
    * Open the workbook containing the macros.
-   * Run the desired macro via the VBA editor ('Alt + F8') or assign it to a button in Excel.
+   * Run the desired macro via the VBA editor (`Alt + F8`) or assign it to a button in Excel.
    * Follow the instructions within each macro for customization.
 
 
@@ -90,4 +90,4 @@ VBA (Visual Basic for Applications) is a powerful tool built into Microsoft Offi
 Contributions are welcome! Feel free to fork the repository, make your changes, and submit a pull request. Suggestions for additional macros are also appreciated.
 
 ## Contact
-For questions, suggestions, or issues, feel free to reach out via GitHub or email at 'cliffsiu39@gmail.com' .
+For questions, suggestions, or issues, feel free to reach out via GitHub or email at `cliffsiu39@gmail.com` .
