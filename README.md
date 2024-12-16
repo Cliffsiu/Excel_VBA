@@ -57,7 +57,8 @@ Here are a few examples of the VBA scripts included:
 
 ### Auto-Format Columns
 
-'Sub AutoFormatColumns()
+```vbnet
+Sub AutoFormatColumns()
     Dim ws As Worksheet
     Set ws = ActiveSheet
     
@@ -68,17 +69,18 @@ Here are a few examples of the VBA scripts included:
         .Borders.LineStyle = xlContinuous
     End With
 End Sub
-'
+```
 
 ### Remove Duplicates
 
-'Sub RemoveDuplicates()
+```vbnet
+Sub RemoveDuplicates()
     Dim ws As Worksheet
     Set ws = ActiveSheet
     
     ws.UsedRange.RemoveDuplicates Columns:=Array(1), Header:=xlYes
 End Sub
-'
+```
 
 ## Why Use VBA?
 VBA (Visual Basic for Applications) is a powerful tool built into Microsoft Office products that allows users to automate repetitive tasks, manipulate data, and build interactive tools directly within Excel.
