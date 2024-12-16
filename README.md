@@ -27,39 +27,35 @@ This repository includes a variety of VBA scripts to perform tasks such as:
    * Navigating between worksheets with shortcut macros.
 
 ## Getting Started
-Prerequisites
-Microsoft Excel (2016 or later recommended).
-Basic understanding of VBA (Visual Basic for Applications).
-Installation
-Enable the Developer Tab:
-Open Excel.
-Go to File > Options > Customize Ribbon.
-Check the Developer option and click OK.
-Access VBA Editor:
-Press Alt + F11 to open the VBA editor.
+### Prerequisites
+   * Microsoft Excel (2016 or later recommended).
+   * Basic understanding of VBA (Visual Basic for Applications).
 
-Import the Code:
+### Installation
+1. Enable the Developer Tab:
+   * Open Excel.
+   * Go to 'File' > 'Options' > 'Customize Ribbon'.
+   * Check the Developer option and click 'OK'.
 
-Download this repository as a .zip or clone it.
+2. Access VBA Editor:
+   * Press 'Alt + F11' to open the VBA editor.
 
-Open the Excel workbook where you'd like to add the macros.
+3. Import the Code:
+   * Download this repository as a '.zip' or clone it.
+   * Open the Excel workbook where you'd like to add the macros.
+   * Import the '.bas' files into your project via the VBA editor.
 
-Import the .bas files into your project via the VBA editor.
+## How to Use
+   * Open the workbook containing the macros.
+   * Run the desired macro via the VBA editor ('Alt + F8') or assign it to a button in Excel.
+   * Follow the instructions within each macro for customization.
 
-How to Use
 
-Open the workbook containing the macros.
-
-Run the desired macro via the VBA editor (Alt + F8) or assign it to a button in Excel.
-
-Follow the instructions within each macro for customization.
-
-Code Examples
-
+## Code Examples
 Here are a few examples of the VBA scripts included:
 
-Auto-Format Columns
 
+### Auto-Format Columns
 Sub AutoFormatColumns()
     Dim ws As Worksheet
     Set ws = ActiveSheet
@@ -72,7 +68,7 @@ Sub AutoFormatColumns()
     End With
 End Sub
 
-Remove Duplicates
+### Remove Duplicates
 
 Sub RemoveDuplicates()
     Dim ws As Worksheet
@@ -81,18 +77,12 @@ Sub RemoveDuplicates()
     ws.UsedRange.RemoveDuplicates Columns:=Array(1), Header:=xlYes
 End Sub
 
-Why Use VBA?
-
+## Why Use VBA?
 VBA (Visual Basic for Applications) is a powerful tool built into Microsoft Office products that allows users to automate repetitive tasks, manipulate data, and build interactive tools directly within Excel.
 
-Contributing
 
+## Contributing
 Contributions are welcome! Feel free to fork the repository, make your changes, and submit a pull request. Suggestions for additional macros are also appreciated.
 
-License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-Contact
-
-For questions, suggestions, or issues, feel free to reach out via GitHub or email at your_email@example.com.
+## Contact
+For questions, suggestions, or issues, feel free to reach out via GitHub or email at 'cliffsiu39@gmail.com' .
