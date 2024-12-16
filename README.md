@@ -1,10 +1,10 @@
-#Excel VBA Automation Toolkit
+# Excel VBA Automation Toolkit
 
-###Overview
+### Overview
 The Excel VBA Automation Toolkit is a collection of beginner-friendly VBA macros designed to simplify and automate common tasks in Excel. 
 This project demonstrates the power of VBA for streamlining workflows, making it an excellent showcase for learning or portfolio purposes.
 
-###Features
+### Features
 This repository includes a variety of VBA scripts to perform tasks such as:
 
 1. Data Formatting:
