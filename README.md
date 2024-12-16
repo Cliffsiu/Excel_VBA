@@ -8,9 +8,9 @@ This project demonstrates the power of VBA for streamlining workflows, making it
 ## Features
 This repository includes a variety of VBA scripts to perform tasks such as:
 
-### 1. Data Formatting:
-    * Auto-formatting columns (e.g., text alignment, font changes, borders).
-    * Converting data to tables with consistent styling.
+### 1. Data Formatting:   
+   * Auto-formatting columns (e.g., text alignment, font changes, borders).
+   * Converting data to tables with consistent styling.
 
 ### 2. Data Cleaning:
    * Removing duplicates.
